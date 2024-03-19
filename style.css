@@ -1,0 +1,92 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  color: white;
+}
+
+/* Body styles */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(160deg, #001626, #0E48AC);
+}
+
+/* Main container styles */
+.container {
+  width: 605px;
+  background: rgba(255, 255, 255, 0.05); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); /* Adjusted box shadow for glass effect */
+}
+
+/* Header styles */
+.container header {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Content styles */
+.container .content {
+  margin: 35px 0;
+}
+
+/* Quote area styles */
+.content .quote-area {
+  display: flex;
+  justify-content: center;
+}
+
+/* Quote text styles */
+.quote-text {
+  font-size: 21px;
+  font-weight: 100;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Author styles */
+.author {
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+}
+
+.author span:first-child {
+  margin-right: 7px;
+}
+
+/* Buttons section styles */
+.container .buttons {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Button styles */
+.buttons button {
+  border: none;
+  color: #131313;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: #fefefe;
+  margin-top: 1rem;
+}
+
+/* Loading state button styles */
+.buttons button.loading {
+  opacity: 0.5;
+  pointer-events: none;
+}
