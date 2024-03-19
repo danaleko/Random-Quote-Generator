@@ -12,4 +12,4 @@ This simple yet powerful tool generates thought-provoking quotes with just a cli
 <a href="https://youtu.be/SzD7MsluceA">Watch Tutorial on how to Create the Quote Generator</a>
 
 
-<img src="preview.jpg" alt="Description of the screenshot">
+<img src="preview.png" alt="Description of the screenshot">
